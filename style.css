@@ -4,21 +4,21 @@
     text-decoration: none;
     font-family: 'Martel', serif;
 }
-/*Ícones para contato - primeiro bloco*/
+/*Header*/
+    /*Primeiro bloco - Ícones para contato*/
 .icons{
     width: 100%;
     height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;   
-    /*background-color: rgba(0, 0, 0, 0.233);*/
 }
 .icons img{
     width: 35px;
     height: 35px;
     margin: 0px 0px 0px 30px;
 }
-/*Título principal - Moana*/
+    /*Título principal - Moana*/
 #title{
     width: 140px;
     height: 70px;
@@ -27,32 +27,29 @@
     position: absolute;
     left: 615px;
     top: 90px;
-    /*background-color: rgba(0, 0, 255, 0.315);*/
 }
 /*Menu*/
+    /*Caixa do menu de navegação*/
 .menu{
     width: 85%;
     height: 40px;
     margin: 10px 85px 45px 85px;
-    display: flex;
-    /*background-color: rgba(43, 255, 0, 0.438);*/
-    
+    display: flex;    
 }
-    /*Primeiro bloco - Home/ About/ Service*/
+    /*Primeira divisão do menu - Home/ About/ Service*/
 .about{
     width: 400px;
     height: 40px;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    /*background-color: rgba(255, 127, 80, 0.432);*/
 }
 .about a{
     color: black;
     font-size: 18px;
     font-weight: 600;
 }
-    /*Segundo bloco - Blog/ Portifolio/ Contact*/
+    /*Segunda divisão do menu - Blog/ Portifolio/ Contact*/
 .blog{
     width: 400px;
     height: 40px;
@@ -60,7 +57,6 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    /*background-color: rgba(255, 127, 80, 0.432);*/
 }
 .blog a{
     color: black;
@@ -70,9 +66,8 @@
 /*Main*/
 #main{
     width: 100%;
-    /*background-color: rgba(0, 0, 0, 0.493);*/
 }
-/*Seção de Introdução*/
+    /*Seção de Introdução*/
     /*Imagem Principal*/
 .intro{
     width: 100%;
@@ -117,41 +112,63 @@
     align-items: center;
 }
 /*Seção dos conteúdos principais - Courses 1, 2 e 3*/
-    /*Primeira caixa - Course 1 e 3*/
+    /*Caixa inteira: divisão Imagem + divisão Course 1,e 3*/
 .course-boxes{
+    width: 100%;
+    height: 900px;
+    margin-bottom: 95px;
+    display: flex;
+}
+    /*Caixa inteira: divisão Imagem + divisão Course 2*/
+#course-boxes{
     width: 100%;
     height: 900px;
     margin-bottom: 90px;
     display: flex;
-    /*background-color: rgba(0, 0, 0, 0.486);*/
+    flex-direction: row-reverse;
 }
-    /*Divisão 1 da Primeira caixa - Course 1, 2 e 3 - Imagem*/
+    /*Divisão 1 da caixa inteira, Imagem - Course 1, 2 e 3*/
 .course-image{
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color:rgba(137, 43, 226, 0.842);*/
 }
 .course-image img{
     width: 600px;
     height: 800px;
 }
-    /*Divisão 2 da Primeira caixa - Course 1, 2 e 3 - Caixa de texto*/
+    /*Divisão 2 da caixa inteira, Texto - Course 1, 2 e 3*/
 .course-text{
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-    /*Borda rosa*/
+    /*Divisão 2, borda rosa - Course 1, 2 e 3*/
 .text-decoration{
     width: 600px;
     height: 800px;
     border: 3px solid #F49C9C;
     border-radius: 5px;
 }
-    /*Subtítulo*/
+    /*Divisão 2, Botões Read More*/
+.button{
+    width: 140px;
+    height: 53px;
+    margin:55px 0px 0px 220px;
+    background: #F49C9C;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button p{
+    color: #FFF0F0;
+    font-weight: bold;
+    font-size: 18px;
+}
+    /*Divisão 2, Subtítulo*/
 .subtitle{
     width: 600px;
     height: 140px;
@@ -161,7 +178,7 @@
     justify-content: center;
     align-items: flex-end;
 }
-    /*Texto*/
+    /*Divisão 2, Texto*/
 .text{
     width: 540px;
     height: 560px;
@@ -170,66 +187,23 @@
     display: flex;
     align-items: center;
 }
-    /*Seção - Course 2*/
-#course-boxes{
+/*Footer*/
+.footer{
     width: 100%;
-    height: 900px;
-    margin-bottom: 90px;
-    display: flex;
-    flex-direction: row-reverse;
 }
-    /*Botões Read More*/
-/*Botão Course 1*/
-.button-1{
-    position: absolute;
-    width: 140px;
-    height: 53px;
-    left: 948px;
-    top: 1861px;
-    background: #F49C9C;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*Fundo do rodapé*/
+.footer-background{
+    margin-top: 180px;
+    position:relative;
 }
-.button-1 p{
-    color: #FFF0F0;
-    font-weight: bold;
-    font-size: 18px;
+.footer-background img{
+    width: 100%;
 }
-/*Botão Course 2*/
-.button-2{
-    position: absolute;
-    width: 140px;
-    height: 53px;
-    left: 252px;
-    top: 2850px;
-    background: #F49C9C;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.button-2 p{
-    color: #FFF0F0;
-    font-weight: bold;
-    font-size: 18px;
-}
-/*Botão Course 3*/
-.button-3{
-    position: absolute;
-    width: 140px;
-    height: 53px;
-    left: 941px;
-    top: 3845px;
-    background: #F49C9C;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.button-3 p{
-    color: #FFF0F0;
-    font-weight: bold;
-    font-size: 18px;
+.footer-mascara{
+    width: 100%;
+    height: 776px;
+    position:absolute;
+    top:0;
+    left:0;
+    background:url(assets/Rectangle-9.png) 0 0 no-repeat;
 }
