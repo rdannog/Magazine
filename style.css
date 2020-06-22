@@ -14,49 +14,53 @@
     align-items: center;   
 }
 .icons img{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     margin: 0px 0px 0px 30px;
-}
-    /*Título principal - Moana*/
-#title{
-    width: 140px;
-    height: 70px;
-    font-size: 43px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: absolute;
-    left: 615px;
-    top: 90px;
 }
 /*Menu*/
     /*Caixa do menu de navegação*/
 .menu{
-    width: 85%;
-    height: 40px;
-    margin: 10px 85px 45px 85px;
-    display: flex;    
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
 }
     /*Primeira divisão do menu - Home/ About/ Service*/
 .about{
-    width: 400px;
-    height: 40px;
+    width: 376px;
+    height: 42px;
+    margin-left: 67px;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 .about a{
     color: black;
     font-size: 18px;
     font-weight: 600;
 }
+/*Título principal - Moana*/
+.title{
+    width: 426px;
+    height: 98px;
+    margin-left: 50px;
+    font-size: 58px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     /*Segunda divisão do menu - Blog/ Portifolio/ Contact*/
 .blog{
-    width: 400px;
-    height: 40px;
-    margin-left: 430px;
+    width: 430px;
+    height: 42px;
+    margin-right: 67px;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 .blog a{
     color: black;
@@ -298,7 +302,9 @@
 }
 .footer-logo{
     font-weight: bold;
-    font-size: 45px;
+    font-size: 43px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
