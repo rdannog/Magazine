@@ -1,5 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Martel', serif;
+    list-style: none;
+}
+.header-logo{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-logo-box{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+.header-navigation{
+    width: 100vw;
+    height: 28vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-nav-left, .header-nav-right{
+    width: 30vw;
+}
+.header-nav-left ul, .header-nav-right ul{
+    font-weight: 500;
+    font-size: 3.5vh;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
+.header-navigation li:hover{
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration:  underline 0.94vh #F49C9C;
+}
+.header-title h1{
+    font-size: 9vh;
+    text-transform: capitalize;
 }
