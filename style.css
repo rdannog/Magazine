@@ -3,6 +3,7 @@
     margin: 0px;
     text-decoration: none;
     font-family: 'Martel', serif;
+    box-sizing: border-box;
 }
 /*Header*/
     /*Primeiro bloco - Ícones para contato*/
